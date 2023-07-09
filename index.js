@@ -77,7 +77,11 @@ document.getElementById("Age_Check_Button").onclick = function(){
             break;
 
         case age >65:
-            Accses = "Acsess Granted retierd person"
+            Accses = "Acsess Granted retired person"
+            break;
+
+        case age > 18:
+            Accses = "Normal person"
             break;
         
         case age < 0:
