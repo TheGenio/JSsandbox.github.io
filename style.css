@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(191, 118, 118);
+    text-align: center;
+    
+}
+table {
+    text-align: center;
+  }
+  
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  dl {
+    text-align: center;
+    
+  }
+  ul {text-align: left;}
+  
+
+.image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    transition: transform 0.5s;
+  }
+  
+  .image-container:hover img {
+    transform: rotate(360deg);
+  }
+
+
+.counterButtons{
+  font-size: medium;
+}
+.counterButtons button{
+
+  font-size: x-large;
+  
+}
+.counterButtons label{
+  font-size: xx-large;
+}
+
+.AgeChecker label  {
+  
+}
+
+
